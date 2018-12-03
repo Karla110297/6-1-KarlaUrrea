@@ -10,6 +10,17 @@ namespace _6_1_KarlaUrrea
     {
         static void Main(string[] args)
         {
+            BusquedaSecuencial  BS = new BusquedaSecuencial();
+            
+            BS.imprimirEjemplo1();//Ejemplo 1
+
+            Console.Clear();
+
+            BS.imprimirEjemplo2();//Ejemplo 2
+            
+
+
+            Console.ReadKey();
         }
     }
 }
